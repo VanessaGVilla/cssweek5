@@ -76,9 +76,16 @@ p {
 }
 
 #intro {
-      text-indent: 64px;
+     
 }
 
 #how-does-it-work, #influence, #joke {
 
 }
+
+#influence {
+	text-indent: 64px;
+}
+	
+	
+	
