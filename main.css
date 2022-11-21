@@ -12,7 +12,7 @@
 */
 
 a:link, a:visited {
-	color: pink;
+	color: rgb(74, 144, 194);
 }
 
 <style>
@@ -35,36 +35,28 @@ body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 300;
 	size: 16px;
-	font-feature-settings: kern1;
-	color: dark-gray;
+	color: rgb(43, 42, 42);
+    font-feature-settings: "kern"
+	}
 
-}
-
-code {
-	
-}
 
 h1, h2, h3 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
+	margin-bottom: 1em;
 	
          
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
 h3 {
-	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
 }
 
 header {
-	
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 1em;
 }
 
 main {
@@ -72,20 +64,19 @@ main {
 }
 
 p {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 300;
+	line-height: 140%;
+    margin-bottom: 1em;
 
 }
 
 #intro {
-     
-}
+	text-align: left;
+	
+     }
 
 #how-does-it-work, #influence, #joke {
-
-}
-
-#influence {
-	text-indent: 64px;
-}
-	
-	
-	
+	text-align: left;
+	line-height: 140%
+	}
